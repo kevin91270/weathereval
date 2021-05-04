@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>{{weather.city}}</h2>
+    <img [src]="weather.icon" style="float: left;"/>
+    <p>
+        Conditions: {{weather.conditions}}<br/>
+        Temperature: {{weather.temperature}} °C<br/><br/>
+        Temperature max: {{weather.temp_max}} °C<br/>
+        Temperature min: {{weather.temp_min}} °C<br/>
+        Humidity: {{weather.humidity}} °C<br/>
+        Wind speed: {{weather.wind}}<br/>
+    </p>
+</body>
+
